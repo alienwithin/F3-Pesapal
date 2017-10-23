@@ -101,6 +101,7 @@ $f3->route('GET /ipn',
 		);
 ```
 ##Sample Checkout Page generated on Fatfree
+
 ![Pesapal Iframe successfully generated](https://github.com/alienwithin/F3-Pesapal/raw/master/fatfree_framework_pesapal_integration.png "Pesapal Integration in FatFree")
 ## License
 F3-PesaPal is licensed under GPL v.3
