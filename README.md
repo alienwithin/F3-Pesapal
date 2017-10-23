@@ -101,7 +101,7 @@ $f3->route('GET /ipn',
 		);
 ```
 
-View the [sample application](https://github.com/alienwithin/F3-Pesapal/tree/master/sample-application)to understand implementation aspects of the gateway and test it. 
+View the [sample application](https://github.com/alienwithin/F3-Pesapal/tree/master/sample-application) to understand implementation aspects of the gateway and test it. 
 
 ## License
 F3-PesaPal is licensed under GPL v.3

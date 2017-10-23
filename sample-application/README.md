@@ -1,4 +1,4 @@
-#F3-Pesapal Sample Implementation
+# F3-Pesapal Sample Implementation
 
 To use this sample application update the config.ini parameters with your environment parameters i.e. 
 
@@ -25,7 +25,7 @@ The application takes a 4 step- process to checkout:
 * Post the transaction to pesapal 
 * redirection is done to thank you page once payment is successful. 
 
-###Note:
+### Note:
 Card's cannot be tested on test at the moment of this writing; they are purely on production ; mobile money transactions are however possible to test using the sandbox. 
 
 To use in production change the endpoint to production; additionally update the keys and call back URL.
