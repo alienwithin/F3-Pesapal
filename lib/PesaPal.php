@@ -13,16 +13,16 @@
 include_once("OAuth.php");
 class PesaPal
 {
-	protected $f3;
-	private   $pesapalSettings = array();
+    protected $f3;
+    private   $pesapalSettings = array();
     public    $endpoint;
     public    $line_items = array();
     public    $item_counter = 0;
     public    $item_total = 0;
-	public    $pesapal_parameters = array();
+    public    $pesapal_parameters = array();
     public    $logger;
 	
-	/**
+     /**
      *    Class constructor
      *    Defines API endpoint, pesapal Settings in configuration file
      *    @param  $options array
@@ -43,7 +43,7 @@ class PesaPal
             $this->endpoint = 'https://demo.pesapal.com/';
         }
 		$this->pesapalSettings['key'] = $options['consumer_key'];
-        $this->pesapalSettings['secret'] = $options['consumer_secret'];
+                $this->pesapalSettings['secret'] = $options['consumer_secret'];
 		$this->pesapalSettings['callback'] = $options['call_back'];
 		$this->pesapalSettings['currency'] = $options['currency'];
 		$this->pesapalSettings['type'] = $options['type'];
@@ -88,7 +88,7 @@ class PesaPal
             FirstName=\"" . $first_name . "\"
             LastName=\"" . $last_name . "\"
             Email=\"" . $email . "\"
-			Currency=\"" . $getCurrency . "\"
+	    Currency=\"" . $getCurrency . "\"
             PhoneNumber=\"" . $telephone . "\"
             xmlns=\"http://www.pesapal.com\" />";
 		//protect against XSS
