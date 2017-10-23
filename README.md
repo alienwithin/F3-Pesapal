@@ -5,7 +5,7 @@ F3-PesaPal is a Fat Free Framework plugin that helps in easy implementation of P
 ## Quick Start Config
 Add the following custom section to your project config if using the ini style configuration.
 
-```
+```ini
 [PESAPAL]
 consumer_key=yourConsumerKey
 consumer_secret=yourConsumerSecret
