@@ -16,13 +16,13 @@ endpoint=sandbox
 log=1
 ```
 
-- consumer_key - Your PayPal API Username
-- consumer_secret - Your PayPal API Password
-- call_back - Your PayPal API Signature
-- currency - API Version current release is 204.0
-- type - The URL that PayPal redirects your buyers to after they have logged in and clicked Continue or Pay
+- consumer_key - Your pesapal consumer key
+- consumer_secret - your pesapal consumer secret
+- call_back - The URL that pesapal redirects your buyers to after they have logged in and clicked Continue or Pay
+- currency - The currency in use e.g. KES or USD
+- type - this can be either 'MERCHANT' or 'ORDER'
 - endpoint - API Endpoint, values can be 'sandbox' or 'production'
-- log - logs all API requests & responses to paypal.log
+- log - logs all API requests & responses to pesapal.log
 
 If you prefer you can also pass an array with above values when you instantiate the classes.
 
@@ -100,8 +100,8 @@ $f3->route('GET /ipn',
 		}
 		);
 ```
-## Sample Checkout Page generated on Fatfree
 
-![Pesapal Iframe successfully generated](https://github.com/alienwithin/F3-Pesapal/raw/master/fatfree_framework_pesapal_integration.png "Pesapal Integration in FatFree")
+View the [sample application](https://github.com/alienwithin/F3-Pesapal/tree/master/sample-application)to understand implementation aspects of the gateway and test it. 
+
 ## License
 F3-PesaPal is licensed under GPL v.3
