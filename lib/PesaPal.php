@@ -11,7 +11,7 @@
 *	Copyright 2017  Munir Njiru  (email : munir@alien-within.com)
 */
 include_once("OAuth.php");
-class PesaPal
+class PesaPal extends Prefab
 {
     protected $f3;
     private   $pesapalSettings = array();
